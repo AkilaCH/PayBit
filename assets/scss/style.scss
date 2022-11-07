@@ -108,7 +108,7 @@ img{
     height: auto;
 }
 
-/*========== CLASS CSS ==========*/
+/*========== Class CSS ==========*/
 .section{
     padding: 4rem 0 2rem;
     
@@ -120,7 +120,7 @@ img{
     }
 }
 
-/*========== LAYOUT ==========*/
+/*========== Layout ==========*/
 .l-main{
     overflow: hidden;
 }
@@ -145,7 +145,7 @@ img{
     background-color: var(--body-color);
 }
 
-/*========== NAV ==========*/
+/*========== Nav ==========*/
 .nav{
     height: var(--header-height);
     display: flex;
@@ -251,7 +251,7 @@ img{
     bottom: 1.5rem;
 }
 
-/*========== HOME ==========*/
+/*========== Home ==========*/
 .home {
     &__container{
         row-gap: .5rem;
@@ -259,7 +259,6 @@ img{
     &__img{
         width: 280px;
         justify-self: center;
-        padding-left: 8rem;
     }
     &__title{
         font-size: var(--h1-font-size);
@@ -271,7 +270,7 @@ img{
     }
 }
 
-/*========== BUTTONS ==========*/
+/*========== Buttons ==========*/
 .button{
     display: inline-block;
     background-color: var(--first-color);
@@ -308,7 +307,6 @@ img{
     &__img{
         width: 280px;
         justify-self: center;
-        padding-left: 6rem;
     }
 }
 
@@ -338,25 +336,6 @@ img{
     }
 }
 
-/*========== pricing ==========*/
-.pricing {
-    &__container{
-        row-gap: .5rem;
-    }
-    &__img{
-        width: 280px;
-        justify-self: center;
-        padding-left: 8rem;
-    }
-    &__title{
-        font-size: var(--h1-font-size);
-        font-weight: var(--font-bold);
-        margin-bottom: var(--mb-2);
-    }
-    &__description{
-        margin-bottom: var(--mb-3);
-    }
-}
 
 /*========== Send ==========*/
 .send{
@@ -390,7 +369,6 @@ img{
     &__img{
         width: 280px;
         justify-self:center;
-        padding-left: 5rem;
     }
 }
 
@@ -439,7 +417,6 @@ img{
 @media screen and (max-width: 359px){
     .home__img,
     .payment__img,
-    .pricing__img,
     .send__img{
         width: 100%;
     }
@@ -449,7 +426,6 @@ img{
 @media screen and (min-width: 576px){
     .home__container, 
     .payment__container,
-    .pricing__container,
     .send__container{
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
@@ -464,25 +440,14 @@ img{
         }
     }
 
-    .pricing{
-        &__container{
-            padding: 5rem 0 0;
-        }
-        &__img{
-            order: 1;
-        }
-    }
-
     .section-title-center,
     .payment__data,
-    .pricing__container,
     .send__description{
         text-align: initial;
     }
 
     .home__img,
     .payment__img,
-    .pricing__img,
     .send__img{
         width: 100%;
     }
@@ -524,10 +489,6 @@ img{
 
 
     .home__container{
-        padding: 7rem 2rem 0;
-    }
-
-    .pricing__container{
         padding: 7rem 2rem 0;
     }
 
@@ -574,14 +535,12 @@ img{
 
     .home__img,
     .payment__img,
-    .pricing__img,
     .send__img{
         width: 469px;
     }
 
     .home__container, 
     .payment__container,
-    .pricing__container,
     .send__container{
         column-gap: 5rem;
     }

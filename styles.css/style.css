@@ -471,7 +471,7 @@ img {
     order: 1;
   }
   .pricing__container {
-    padding: 5rem 0 0;
+    padding-top: 5rem;
   }
   .pricing__img {
     order: 1;
